@@ -24,6 +24,8 @@ class SongsController < ApplicationController
       @songs = Song.find(params[:id])
     end
   end
+
+  
   def new
     @song = Song.new
   end
